@@ -1,0 +1,17 @@
+article {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  margin: 20px;
+}
+article img {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+article h4,
+p {
+  margin: 5px;
+}

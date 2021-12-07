@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+main {
+  background-color: rgb(237, 229, 234);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.title {
+  font-size: 26px;
+}
+.container {
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.container button {
+  font-size: 22px;
+  font-weight: 600;
+  background-color: rgb(243, 37, 164);
+  border-radius: 10px;
+  width: 90%;
+  height: 50px;
+  border: 1.5px pink;
+  color: white;
+  padding: 10px;
+}
+.container button:hover {
+  cursor: pointer;
+}
+.container button:active {
+  padding: 15px;
+}
+.tours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.single-tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px rgb(201, 201, 201) solid;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 60%;
+}
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.single-tour img {
+  width: 80%;
+  max-height: 320px;
+  border-radius: 8px;
+}
+.price-tour {
+  padding: 2px;
+  color: rgb(59, 59, 255);
+  background-color: rgb(138, 138, 255);
+  border-radius: 2px;
+}
+.single-tour button {
+  color: brown;
+  border-color: brown;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.single-tour .btn-more {
+  border: none;
+  background-color: transparent;
+  color: rgb(255, 68, 0);
+}
