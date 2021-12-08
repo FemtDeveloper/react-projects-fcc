@@ -19,7 +19,7 @@ main {
   padding: 20px;
   border-radius: 10px;
 }
-.container button {
+/* .container button {
   font-size: 22px;
   font-weight: 600;
   background-color: rgb(243, 37, 164);
@@ -29,12 +29,12 @@ main {
   border: 1.5px pink;
   color: white;
   padding: 10px;
-}
+} */
 .container button:hover {
   cursor: pointer;
 }
 .container button:active {
-  padding: 15px;
+  /* padding: 15px; */
 }
 .tours {
   display: flex;
